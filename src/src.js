@@ -1,8 +1,8 @@
 const div = document.getElementById('square');
 
-div.addEventListener('mouseenter', function() {
-    div.style.backgroundColor = 'red'
+square.addEventListener('mouseenter', function() {
+    square.style.backgroundColor = 'red'
 });
-div.addEventListener('mouseleave', function() {
-    div.style.backgroundColor = 'white'
+square.addEventListener('mouseleave', function() {
+    square.style.backgroundColor = 'white'
 });
